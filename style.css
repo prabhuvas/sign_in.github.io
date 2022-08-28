@@ -23,7 +23,7 @@ h1{
 }
 .bk::before {
     content: '';
-    background-image: url("https://springboard-cdn.appadvice.com/wp-content/appadvice-v2-media/2016/11/Netflix-background_860c8ece6b34fb4f43af02255ca8f225-xl.jpg");
+    
     background-size: cover;
     position: absolute;
     top: 0px;
@@ -93,4 +93,18 @@ h1{
     margin-top: 1.2cm;
     text-decoration: none;
     color: grey;
+}
+@media (min-width:0px) and (max-width:740px){
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    .bk{
+        background: black;
+    }
+    .logo{
+        padding-top: 15px;
+        padding-left: 15px;
+        height: 50px;
+    }
 }
