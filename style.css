@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 /*
 h1{
@@ -13,27 +14,31 @@ h1{
     padding-left: 30px;
 }*/
 .bk {
-    background: url("https://springboard-cdn.appadvice.com/wp-content/appadvice-v2-media/2016/11/Netflix-background_860c8ece6b34fb4f43af02255ca8f225-xl.jpg") no-repeat;
+    background: url("https://springboard-cdn.appadvice.com/wp-content/appadvice-v2-media/2016/11/Netflix-background_860c8ece6b34fb4f43af02255ca8f225-xl.jpg") no-repeat center center fixed;
     background-size: cover;
-    height: 1000px;
+    height: 990px;
     width: 100%;
     position: relative;
     font-family: sans-serif;
     color: grey;
+    margin: 0px;
+    padding: 0px;
 }
 .bk::before {
     content: '';
-    
-    background-size: cover;
+    background: no-repeat center center fixed;
+    margin: 0px;
+    padding: 0px;
+    background-size: auto;
     position: absolute;
     top: 0px;
     right: 0px;
     bottom: 0px;
     left: 0px;
     background-blend-mode: darken;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0,0,0,0.5);
 }
-.container {
+.container1 {
     height: 13cm;
     width: 11cm;
     align-content: center;
@@ -49,6 +54,8 @@ h1{
     padding-top: 40px;
     padding-left: 50px;
     opacity: 0.95;
+    color: red;
+    font-size: 50px;
     
 }
 .form {
@@ -72,27 +79,18 @@ h1{
     border-radius: 8px;
 }
 .checkbox{
-    color: grey;
+    background-color: grey;
 }
 .footer{
+    padding-bottom: 0px;
     margin-bottom: 0px;
     margin-top: 3cm;
-    height: 8.3cm;
+    height: 8.5cm;
     position: relative;
-    background-size: cover;
+    background-size: fixed;
     width: 100%;
     background-blend-mode: darken;
     background-color: rgba(0,0,0,0.7);
-}
-.para {
-    padding-left: 5cm;
-    padding-top: 1cm;
-}
-.faq{
-    padding-left: 5cm;
-    margin-top: 1.2cm;
-    text-decoration: none;
-    color: grey;
 }
 @media (min-width:0px) and (max-width:740px){
     *{
@@ -105,6 +103,43 @@ h1{
     .logo{
         padding-top: 15px;
         padding-left: 15px;
-        height: 50px;
+        height: 10px;
+        font-size: 30px;
+    }
+    .container1{
+        padding-left: 0px;
+        margin-left: 0px;
+        height: 13cm;
+    width: 11cm;
+    align-content: center;
+    position: relative;
+    top: 10px;
+    right: 0%;
+    bottom:0px;
+    left:0%;
+    margin-top: 20px;
+    }
+    .heading{
+        font-family:sans-serif;
+            color:white;
+            padding-top:0px;
+            padding-left: 0px;
+            font-size:500px;
+    }
+}
+@media (min-width:741px) and (max-width:991px){
+    .container1{
+        height: 13cm;
+    width: 11cm;
+    align-content: center;
+    position: relative;
+    top: 10px;
+    right: 0%;
+    bottom:0px;
+    left:0%;
+    margin-left: 22%;
+    margin-right: 0%;
+    background-blend-mode: darken;
+    background-color: rgba(0,0,0,0.7); 
     }
 }
