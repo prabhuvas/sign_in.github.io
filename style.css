@@ -1,42 +1,29 @@
 *{
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
-}
-/*
-h1{
     
-    font-family: sans-serif;
-    color: red;
-    font-size: 1.5cm;
-    position: relative;
-    padding-top: 20px;
-    padding-left: 30px;
-}*/
+}
 .bk {
-    background: url("https://springboard-cdn.appadvice.com/wp-content/appadvice-v2-media/2016/11/Netflix-background_860c8ece6b34fb4f43af02255ca8f225-xl.jpg") no-repeat center center fixed;
-    background-size: cover;
-    height: 990px;
-    width: 100%;
-    position: relative;
+   background: url("https://springboard-cdn.appadvice.com/wp-content/appadvice-v2-media/2016/11/Netflix-background_860c8ece6b34fb4f43af02255ca8f225-xl.jpg") no-repeat center center fixed;
+	background-size: cover;
+	height: 693px;
+	width:100%;
+	padding-bottom: 0px;
+	position: relative;
     font-family: sans-serif;
-    color: grey;
-    margin: 0px;
-    padding: 0px;
+    
 }
 .bk::before {
     content: '';
-    background: no-repeat center center fixed;
-    margin: 0px;
-    padding: 0px;
-    background-size: auto;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    background-blend-mode: darken;
-    background-color: rgba(0,0,0,0.5);
+	background-image: url("https://springboard-cdn.appadvice.com/wp-content/appadvice-v2-media/2016/11/Netflix-background_860c8ece6b34fb4f43af02255ca8f225-xl.jpg");
+    	background-size: cover;
+    	position: absolute;
+    	top: 0px;
+    	right: 0px;
+    	bottom: 0px;
+    	left: 0px;
+    	background-blend-mode: darken;
+    	background-color: rgba(0,0,0,0.7);
 }
 .container1 {
     height: 13cm;
@@ -45,14 +32,15 @@ h1{
     position: relative;
     top: 10px;
     right: 0%;
-    bottom:0px;
+    bottom:30px;
     left:33%;
     background-blend-mode: darken;
     background-color: rgba(0,0,0,0.7);
 }
 .logo{
-    padding-top: 40px;
-    padding-left: 50px;
+    margin-top: 0px;
+    padding-top: 15px;
+    padding-left: 20px;
     opacity: 0.95;
     color: red;
     font-size: 50px;
@@ -61,6 +49,7 @@ h1{
 .form {
     padding-top: 23px;
     padding-left: 61px;
+    margin-bottom: 30px;
 }
 .input{
     background-color: #404040;
@@ -69,35 +58,35 @@ h1{
     color: white;
     border-radius: 10px;
 }
-.button{
-    background-color: red;
-    color: white;
-    height: 55px;
-    width: 82%;
-    font-family: sans-serif;
-    font-size: medium;
-    border-radius: 8px;
-}
+
 .checkbox{
     background-color: grey;
 }
 .footer{
     padding-bottom: 0px;
-    margin-bottom: 0px;
-    margin-top: 3cm;
+    margin-top: 0px;
+    padding-top: 0cm;
     height: 8.5cm;
     position: relative;
-    background-size: fixed;
+    
+    background-size: cover;
     width: 100%;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
     background-blend-mode: darken;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0,0,0,0.9);
 }
-@media (min-width:0px) and (max-width:740px){
+@media (min-width:0px) and (max-width:540px){
     *{
         margin: 0px;
         padding: 0px;
     }
     .bk{
+        background: black;
+    }
+    .bk::before{
         background: black;
     }
     .logo{
@@ -110,13 +99,13 @@ h1{
         padding-left: 0px;
         margin-left: 0px;
         height: 13cm;
-    width: 11cm;
-    align-content: center;
+    width: 10cm;
+    
     position: relative;
     top: 10px;
-    right: 0%;
+    right: 10px;
     bottom:0px;
-    left:0%;
+    left:0px;
     margin-top: 20px;
     }
     .heading{
@@ -127,19 +116,35 @@ h1{
             font-size:500px;
     }
 }
-@media (min-width:741px) and (max-width:991px){
+@media (min-width:541px) and (max-width:991px){
+    body{
+        background: black;
+    }
+    .logo{
+        padding-top: 15px;
+        padding-left: 15px;
+        background: black;
+    }
     .container1{
         height: 13cm;
     width: 11cm;
     align-content: center;
-    position: relative;
+    background: black;
     top: 10px;
     right: 0%;
     bottom:0px;
     left:0%;
     margin-left: 22%;
     margin-right: 0%;
-    background-blend-mode: darken;
-    background-color: rgba(0,0,0,0.7); 
+
+    }
+    .bk{
+        height: 693px;
+        background-size: cover;
+        background: black;
+    }
+    .bk::before{
+        height: 693px;
+        background-color: black;
     }
 }
