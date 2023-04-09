@@ -6,7 +6,7 @@
 
 
 
-![alt text](sign_in.github.io/images/OUTPUT-Image-1.png)
+![alt text](sign_in.github.io/images/OUTPUT-Image-1.PNG)
 
 
 
