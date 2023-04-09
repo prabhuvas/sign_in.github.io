@@ -10,4 +10,5 @@
 
 ![alt text](sign_in.github.io/images/InShot.jpg)
 
+![alt text](InShot.jpg)
 
