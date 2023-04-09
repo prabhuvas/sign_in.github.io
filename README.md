@@ -2,4 +2,4 @@
  clone netflix sign in page
 
 
-![alt text](OUTPUT Image-1.png)
+[alt text](OUTPUT Image-1.png)
