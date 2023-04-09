@@ -8,5 +8,6 @@
 
 ![alt text](sign_in.github.io/images/OUTPUT-Image-1.PNG)
 
+![alt text](sign_in.github.io/images/InShot.jpg)
 
 
